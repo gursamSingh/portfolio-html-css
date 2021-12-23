@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
+:root{
+    --primary-color: #ffd65c;
+}
+
+
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+hr{
+    margin: 2rem 0rem;
 }
 
 .container{
@@ -13,4 +22,31 @@ body {
     max-width: 600px;
     margin: auto;
 }
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    color:black;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+.list-non-bullet{
+    list-style: none;
+}
+
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
 
