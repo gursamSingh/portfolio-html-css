@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 :root{
-    --primary-color: #ffd65c;
+    --primary-color: #fbbf24;
+    --secondary-color: #404040;
+    --bg-color: #e5e5e5;
+
 }
 
 
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -73,3 +77,57 @@ text-align: right;
 .navigation .link-active{
     font-weight: bold;
 }
+
+.header{
+    padding: 2rem;
+    text-align: center;
+}
+
+.header .header-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.header .header-heading{
+    padding-top: 1rem;
+    font-weight: bolder;
+    color: var(--secondary-color);
+}
+
+.header .header-heading .header-heading-inverted{
+    color: var(--primary-color);
+}
+
+.section{
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.section-background{
+    background-color: var(--bg-color);
+    border-radius: 0.5rem;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: black;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+
+}
+
+.footer .link{
+    color: black;
+
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+

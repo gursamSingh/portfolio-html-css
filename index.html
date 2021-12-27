@@ -86,9 +86,9 @@
 
     <h2>@Header</h2>
 
-    <header>
-        <img src="images/programming.svg" />
-        <h1>This is the heading</h1>
+    <header class="header">
+        <img class="header-image" src="images/programming.svg" />
+        <h1 class="header-heading">This is <span class="header-heading-inverted">Web Development 101</span></h1>
 
     </header>
 
@@ -96,24 +96,33 @@
 
     <h2>@Section</h2>
     <p>This section is used to separate parts of pages</p>
-    <section>
-        <h3>Fluid Section</h3>
-        <p>This text defines the section</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>White Section</h1>
+            <p>This text defines the section</p>
+        </div>
+
     </section>
 
-    <section>
-        <h3> Off White Section</h3>
-        <p>Text will define this section</p>
+    <section class="section section-background">
+        <div class="container container-center">
+            <h1> Off White Section</h1>
+            <p>Text will define this section</p>
+        </div>
+
     </section>
 
     <hr>
     <h2>@Footer</h2>
-    <footer>
-        <div> Some text inside the footer</div>
-        <ul>
-            <li>Item One</li>
-            <li>Item Two</li>
-            <li>Item Three</li>
+    <footer class="footer">
+        <div class="footer-header"> Some text inside the footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">Item One</a></li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Item Two</a></li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Item Three</a></li>
         </ul>
     </footer>
 
