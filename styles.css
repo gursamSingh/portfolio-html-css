@@ -34,14 +34,14 @@ hr{
 
 .link-primary{
     background-color: var(--primary-color);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     color:black;
 }
 
 .link-secondary{
-    color: var(--primary-color);
+    color: black;
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
 }
 .list-non-bullet{
     list-style: none;
@@ -80,7 +80,6 @@ text-align: right;
 
 .header{
     padding: 2rem;
-    text-align: center;
 }
 
 .header .header-image{
@@ -91,6 +90,7 @@ text-align: right;
 
 .header .header-heading{
     padding-top: 1rem;
+    text-align: center;
     font-weight: bolder;
     color: var(--secondary-color);
 }
