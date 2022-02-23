@@ -131,3 +131,11 @@ text-align: right;
     padding-inline-start: 0px;
 }
 
+.tech {
+    display: inline;
+    padding: 0.5rem 2rem;
+    color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
