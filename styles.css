@@ -133,8 +133,9 @@ text-align: right;
 
 .tech {
     display: inline;
-    color: var(--primary-color);
-    border: 1px solid var(--secondary-color);
+    padding: 0rem 1rem;
     border-radius: 0.5rem;
-    margin: auto;
+    border: 2px solid var(--primary-color);
+    margin: 1rem;
+
 }
